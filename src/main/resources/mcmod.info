@@ -1,0 +1,16 @@
+[
+{
+  "modid": "autobullettime",
+  "name": "AutoBulletTime",
+  "description": "Automatically switches to a Bullet Time sword and blocks when incoming arrows are detected.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["jojo"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
