@@ -50,6 +50,10 @@ public class AutoBulletTime
     @SubscribeEvent
 	public void tickEvent(TickEvent.PlayerTickEvent event) {
     	
+    	if (!isInPit()) {
+    		return;
+    	}
+    	
     	// check every second if the player has a bullet time sword (and what slot it is in if they do)
     	
     	if (System.currentTimeMillis() - lastCheckedForBulletTime > 1000) {
@@ -173,5 +177,9 @@ public class AutoBulletTime
     	
     	// didn't find a bullet time sword
     	return -1;
+    }
+    
+    public boolean isInPit() {
+    	return true;
     }
 }
